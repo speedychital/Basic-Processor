@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>G17 Processor</title>
+    </head>
+    <link rel="stylesheet" href="style.css" />
+    <body>
+        <div class="main-container">
+            <div class="level-1">
+                <div class="register pc">
+                    PC
+                    <div class="value">1000</div>
+                </div>
+                <div class="register tmp">
+                    TMP
+                    <div class="value">1000</div>
+                </div>
+                <div class="register c">
+                    C
+                    <div class="value">1000</div>
+                </div>
+                <div class="register b">
+                    B
+                    <div class="value">1000</div>
+                </div>
+                <div class="register a">
+                    A
+                    <div class="value">1000</div>
+                </div>
+            </div>
+            <div class="level-2">
+                <div class="register mar">
+                    MAR
+                    <div class="value">1000</div>
+                </div>
+                <div class="register alu">
+                    ALU
+                    <div class="value">1000</div>
+                </div>
+            </div>
+            <div class="level-3">
+                <div class="ram">
+                    <div class="row-5">RAM(64*3)bits</div>
+                    <div class="row-5 opcode"></div>
+                    <div class="row-5 high"></div>
+                    <div class="row-5 low"></div>
+                    <div class="row-5 addr"></div>
+                </div>
+                <div class="register ir">
+                    IR
+                    <div class="value">1000</div>
+                </div>
+                <div class="rom">ROM</div>
+            </div>
+            <div class="level-4">
+                <div class="input-field">
+                    <input
+                        type="text"
+                        id="instr"
+                        class="instruction"
+                        placeholder="Enter next instruction"
+                    />
+                </div>
+                <div class="func">
+                    <button class="counter">counter</button>
+                    <div id="time">0</div>
+                    <button class="halt">HALT</button>
+                </div>
+            </div>
+            <div class="bus bus1"></div>
+            <div class="bus bus2"></div>
+            <div class="bus main-bus"></div>
+            <div class="bus bus-tmp"></div>
+            <div class="bus bus-b"></div>
+            <div class="bus bus-c"></div>
+            <div class="bus bus-ir"></div>
+            <div class="bus bus3"></div>
+            <div class="bus busab"></div>
+            <div class="bus bus-a1"></div>
+            <div class="bus bus-amain"></div>
+            <div class="bus bus-alu"></div>
+
+            <h4>G17 - UG19i23</h4>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
