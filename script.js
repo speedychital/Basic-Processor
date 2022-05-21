@@ -263,10 +263,10 @@ input.addEventListener("keydown", function (e) {
 
 function Reset() {
     pc = 0;
-    a = 21;
-    b = 42;
+    a = 2;
+    b = 4;
     tmp = 0;
-    c = 5;
+    c = 3;
     ir = 0;
     ram = ["", "", "", ""];
     mar = 0;
