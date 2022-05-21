@@ -79,9 +79,9 @@ let bbus = document.querySelector(".bus-b");
 let cbus = document.querySelector(".bus-c");
 let alubus = document.querySelector(".bus-alu");
 let tmp = 0;
-let a = 21;
-let c = 5,
-    b = 42;
+let a = 2;
+let c = 4,
+    b = 3;
 let ir = 0;
 display();
 let abbus = document.querySelector(".busab");
@@ -103,7 +103,7 @@ function fetch2() {
 function MOV() {
     abbus.style.backgroundColor = "red";
     b = a;
-    console.log("hii");
+    // console.log("hii");
     display();
     setTimeout(function () {
         alert("Execution Done!");
